@@ -1,16 +1,33 @@
-# hitsz-computer-programming
+# HITSZ Computer Programming
 
-# HITSZ计算机编程实验报告
+## 计算机编程实验
 
-本仓库用于存放计算机编程课程实验相关代码，流程图和实验报告文档。
+本仓库用于整理哈尔滨工业大学（深圳）计算机编程课程的实验代码、流程图和实验报告文档。
 
-### 文件夹说明
+仓库内容以课程实验为主，主要包括 C++ 源代码、程序流程图、编译生成文件以及实验报告，方便进行课程学习、实验复习和版本管理。
 
-- `bin` 文件夹用于存放编译出的 `.exe` 文件。
-- `flowchart` 文件夹用于存放各个Task的流程图。
-- - `drawio` 文件夹用于存放 `.drawio` 文件（需配合 Visual Studio Code 中的 Draw.io Integration 插件使用）。
-- - `png` 文件夹用于存放由 `.drawio` 导出的 `.png` 文件，便于直接插入Word文档。
-- `src` 文件夹用于存放C++源代码。
+### 仓库构成
+
+```text
+hitsz-computer-programming/
+├── README.md
+└── Experiment_m/
+    ├── bin/
+    │   └── Experiment_m_Task_n.exe 编译生成的可执行文件
+    │
+    ├── flowchart/
+    │   ├── drawio/
+    │   │   └── Draw.io 流程图源文件（需配合 Visual Studio Code 中的插件 Draw.io Integration 使用）
+    │   │
+    │   └── png/
+    │       └── 导出的 PNG 流程图图片，便于插入Word实验报告文档中
+    │
+    ├── src/ 
+    │   └── Experiment_m_Task_n.cpp C++源代码
+    │
+    ├── Experiment_m_Report.docx
+    └── Experiment_m_Report.pdf
+```
 
 ---
 
