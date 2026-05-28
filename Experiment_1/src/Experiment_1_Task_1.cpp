@@ -7,7 +7,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     // Output name line
     cout << "Name: XXX" << endl; // Displays the name
 
