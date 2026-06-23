@@ -1,0 +1,116 @@
+<mxfile host="65bd71144e">
+    <diagram name="Calculate Power Function Flowchart" id="calculate-power-function-flowchart">
+        <mxGraphModel dx="573" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1150" pageHeight="1650" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="start" value="Start" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#82B366;fillColor=#D5E8D4;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="495" y="40" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="process1" value="Enter main() function" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="465" y="130" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="process2" value="Declare variable:&#xa;int base" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="475" y="230" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="io1" value="Output: Enter a number:&#xa;Input: base" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeColor=#D79B00;fillColor=#FFE6CC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="425" y="340" width="300" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="process3" value="Call function:&#xa;calculatePower(base, 2)&#xa;Get square value" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="455" width="310" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="process4" value="Enter calculatePower(base, exp)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="585" width="330" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="process5" value="Initialize:&#xa;result = 1&#xa;i = 0" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="455" y="685" width="240" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="decision1" value="i &lt; exp ?" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D6B656;fillColor=#FFF2CC;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="475" y="820" width="200" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="process6" value="Calculate:&#xa;result = result * base" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="840" width="250" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="process7" value="Update loop:&#xa;i++" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="165" y="965" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="process8" value="Return result from&#xa;calculatePower()" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="995" width="290" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="io2" value="Output:&#xa;Square: calculatePower(base, 2)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeColor=#D79B00;fillColor=#FFE6CC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1115" width="350" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="process9" value="Call function again:&#xa;calculatePower(base, 3)&#xa;Get cube value" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="1235" width="310" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="io3" value="Output:&#xa;Cube: calculatePower(base, 3)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeColor=#D79B00;fillColor=#FFE6CC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1365" width="350" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="process10" value="Return 0" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="495" y="1485" width="160" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="end" value="End" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#82B366;fillColor=#D5E8D4;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="495" y="1575" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="start" target="process1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process1" target="process2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process2" target="io1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="io1" target="process3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process3" target="process4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process4" target="process5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process5" target="decision1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge8" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontSize=13;" parent="1" source="decision1" target="process6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="275" y="875"/>
+                            <mxPoint x="275" y="840"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process6" target="process7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process7" target="decision1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="85" y="1000"/>
+                            <mxPoint x="85" y="830"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge11" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontSize=13;" parent="1" source="decision1" target="process8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process8" target="io2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="io2" target="process9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process9" target="io3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="io3" target="process10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process10" target="end" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

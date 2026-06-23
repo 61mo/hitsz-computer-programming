@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram name="Display Header Function Flowchart" id="display-header-function-flowchart">
+        <mxGraphModel dx="914" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1200" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="start" value="Start" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#82B366;fillColor=#D5E8D4;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="345" y="50" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="process1" value="Enter main() function" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="315" y="140" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="process2" value="Call function:&#xa;displayHeader()" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="315" y="240" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="process3" value="Enter displayHeader() function" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="350" width="270" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="io1" value="Output:&lt;br&gt;******************************&lt;br&gt;* Name: XXX *&lt;br&gt;* Lab: C++ Programming Lab *&lt;br&gt;******************************" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeColor=#D79B00;fillColor=#FFE6CC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="225" y="460" width="400" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="process4" value="Return to main() function" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="640" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="process5" value="Return 0" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="345" y="750" width="160" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="end" value="End" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#82B366;fillColor=#D5E8D4;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="345" y="850" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="start" target="process1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process1" target="process2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process2" target="process3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process3" target="io1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="io1" target="process4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process4" target="process5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process5" target="end" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
