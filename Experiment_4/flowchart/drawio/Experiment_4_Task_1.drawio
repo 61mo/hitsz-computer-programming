@@ -1,0 +1,144 @@
+<mxfile host="65bd71144e">
+    <diagram name="Rectangle Class Area Flowchart" id="rectangle-class-area-flowchart">
+        <mxGraphModel dx="628" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1150" pageHeight="1500" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="start" value="Start" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#82B366;fillColor=#D5E8D4;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="495" y="40" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="process1" value="Define Rectangle class:&#xa;private width, height&#xa;public constructors and methods" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="130" width="350" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="process2" value="Enter main() function" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="465" y="265" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="process3" value="Create Rectangle array rects[3]:&#xa;Rectangle()&#xa;Rectangle(3.0, 4.0)&#xa;Rectangle(5.5, 2.0)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="385" y="365" width="380" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="process4" value="Initialize each rectangle:&#xa;width and height start as 1.0&#xa;parameterized objects call setWidth() and setHeight()" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="365" y="525" width="420" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="decision1" value="width &gt; 0 and&#xa;height &gt; 0 ?" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D6B656;fillColor=#FFF2CC;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="475" y="675" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="process5" value="Assign valid width and height values" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="700" width="260" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="io_warning" value="Output warning:&#xa;Invalid width or height rejected" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeColor=#D79B00;fillColor=#FFE6CC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="700" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="process6" value="Set output format:&#xa;fixed&#xa;setprecision(2)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="850" width="250" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="process7" value="Initialize loop:&#xa;i = 0" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="475" y="975" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="decision2" value="i &lt; 3 ?" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D6B656;fillColor=#FFF2CC;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="475" y="1095" width="200" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="process8" value="Call method:&#xa;rects[i].calculateArea()&#xa;area = width * height" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="1115" width="300" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="io1" value="Output:&#xa;Rectangle i + 1 area: area" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;strokeColor=#D79B00;fillColor=#FFE6CC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="1245" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="process9" value="Update loop:&#xa;i++" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="1365" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="process10" value="Return 0" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6C8EBF;fillColor=#DAE8FC;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="495" y="1305" width="160" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="end" value="End" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#82B366;fillColor=#D5E8D4;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="495" y="1405" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="start" target="process1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process1" target="process2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process2" target="process3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process3" target="process4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process4" target="decision1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge6" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontSize=13;" parent="1" source="decision1" target="process5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="270" y="735"/>
+                            <mxPoint x="270" y="700"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge7" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontSize=13;" parent="1" source="decision1" target="io_warning" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="900" y="735"/>
+                            <mxPoint x="900" y="700"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process5" target="process6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="270" y="825"/>
+                            <mxPoint x="575" y="825"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="io_warning" target="process6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="900" y="825"/>
+                            <mxPoint x="575" y="825"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process6" target="process7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process7" target="decision2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge12" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontSize=13;" parent="1" source="decision2" target="process8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="290" y="1150"/>
+                            <mxPoint x="290" y="1115"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process8" target="io1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="io1" target="process9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process9" target="decision2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="70" y="1400"/>
+                            <mxPoint x="70" y="1100"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge16" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontSize=13;" parent="1" source="decision2" target="process10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="575" y="1265"/>
+                            <mxPoint x="575" y="1305"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" parent="1" source="process10" target="end" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
